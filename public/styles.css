@@ -1,0 +1,119 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #eef2f3;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(231, 88, 88, 0.2);
+}
+
+h1, h2 {
+  color: #34495e;
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+input[type="text"], 
+textarea, 
+input[type="date"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 2px solid #abd8ba;
+  border-radius: 8px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus, 
+textarea:focus, 
+input[type="date"]:focus {
+  border-color: #df9164;
+  box-shadow: 0 0 5px rgba(250, 210, 135, 0.5);
+  outline: none;
+}
+
+input[type="submit"], 
+button, 
+.button {
+  background-color: #c7954b;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+input[type="submit"]:hover, 
+button:hover, 
+.button:hover {
+  background-color: #df933c;
+  transform: scale(1.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+th, 
+td {
+  text-align: left;
+  padding: 15px;
+  border-bottom: 2px solid #ffffff;
+}
+
+th {
+  background-color: #d89a53;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #faedb8;
+}
+
+.actions {
+  display: flex;
+  gap: 20px;
+}
+
+#formularioEdicion {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 30px;
+  border: 2px solid #bdc3c7;
+}
+
+.btn-group {
+  /* Ajusta el espaciado entre los botones si es necesario */
+  margin-top: 20px;
+}
+
+.btn {
+  /* Personaliza el estilo de los botones */
+  background-color: #3498db; /* Azul */
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
