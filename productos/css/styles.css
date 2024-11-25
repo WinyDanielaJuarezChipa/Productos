@@ -1,0 +1,101 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #eef2f3;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    color: #14110e;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+input[type="text"], 
+textarea, 
+input[type="date"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #1d1511;
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus, 
+textarea:focus, 
+input[type="date"]:focus {
+    border-color: #1d1a19;
+    box-shadow: 0 0 5px rgba(250, 210, 135, 0.5);
+    outline: none;
+}
+
+input[type="submit"], 
+button, 
+.button {
+    background-color: #b81212;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+input[type="submit"]:hover, 
+button:hover, 
+.button:hover {
+    background-color: #a083ce;
+    transform: scale(1.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th, 
+td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 2px solid #ffffff;
+}
+
+th {
+    background-color: #e9a65a;
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #a4e9a2;
+}
+
+.actions {
+    display: flex;
+    gap: 20px;
+}
+
+#formularioEdicion {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 30px;
+    border: 2px solid #bdc3c7;
+}
